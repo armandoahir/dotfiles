@@ -3,7 +3,7 @@
 padding.x = 12
 padding.y = 12
 decorations = "full"          
-opacity = 0.95                # leggera trasparenza
+opacity = 0.80                # leggera trasparenza
 dynamic_padding = true
 dimensions = {columns = 100, lines = 30} #standard dimension.
 
