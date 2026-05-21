@@ -1,0 +1,56 @@
+# ── Finestra ──────────────────────────────────────────────────────
+[window]
+padding.x = 12
+padding.y = 12
+decorations = "full"          
+opacity = 0.95                # leggera trasparenza
+dynamic_padding = true
+dimensions = {columns = 100, lines = 30} #standard dimension.
+
+[window.class]
+instance = "Alacritty"
+general = "Alacritty"
+
+# ── Font ──────────────────────────────────────────────────────────
+[font]
+size = 11.0
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Bold"
+
+# ── Colori (tema scuro stile Luke Smith) ──────────────────────────
+[colors.primary]
+background = "#332411"
+foreground = "#d8d8d8"
+
+[colors.normal]
+black   = "#1a1a1a"
+red     = "#d25252"
+green   = "#7fe173"
+yellow  = "#ffc66d"
+blue    = "#4099ff"
+magenta = "#f680ff"
+cyan    = "#5bd4cf"
+white   = "#d8d8d8"
+
+[colors.bright]
+black   = "#444444"
+red     = "#ff6666"
+green   = "#99ff88"
+yellow  = "#ffdd88"
+blue    = "#66bbff"
+magenta = "#ff99ff"
+cyan    = "#88ffff"
+white   = "#ffffff"
+
+# ── Cursore ───────────────────────────────────────────────────────
+[cursor]
+style = { shape = "Block", blinking = "Always" }
+# ── Shell ─────────────────────────────────────────────────────────
+[terminal]
+shell = "/usr/bin/zsh"
