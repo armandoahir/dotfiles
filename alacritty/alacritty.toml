@@ -3,10 +3,10 @@
 padding.x = 10
 padding.y = 30
 decorations = "Full"          
-opacity = 0.85                # leggera trasparenza
+opacity = 0.80                # leggera trasparenza
 dynamic_padding = true
 dimensions = {columns = 110, lines = 25} #standard dimension.
-blur = true
+blur = false
 
 [window.class]
 instance = "Alacritty"
